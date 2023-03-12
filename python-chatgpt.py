@@ -8,7 +8,7 @@ parser.add_argument("file_name", help="Name of the file to save Python script")
 args = parser.parse_args()
 
 api_endpoint = "https://api.openai.com/v1/completions"
-api_key = "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"
+
 
 request_headers = {
     "Content-Type": "application/json",
